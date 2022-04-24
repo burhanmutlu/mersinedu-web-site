@@ -1,0 +1,85 @@
+* {
+    text-align: center;
+}
+
+.ust-bolum {
+    width: 100%;
+    height: auto;
+}
+
+.ust-orta {
+    width: 30%;
+    margin-left: 35%;
+}
+
+#resim-meu {
+    width: 30%;
+}
+
+#logo-metni {
+    font-size: 100%;
+    font-weight: bold;
+    color: rgb(183, 32, 32);
+    
+}
+
+#carouselExampleIndicators {
+    width: 100%; 
+}
+
+.carousel-item img {
+    height: 393px;
+}
+
+.haber_kisim {
+    margin-left: 32%;
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+        overflow: scroll;
+    }
+
+    .ust-orta {
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    .carousel-item img {
+        height: 20%;
+    }
+
+    .haber_kisim {
+        margin-left: 0%;
+    }
+}
+
+.mega-menu-sub li a, .mega-menu-item-title , .has-dropdown ul a{
+    text-align: left;
+}
+
+.footer-ust tr td {
+    
+    font-size: 450%;
+    
+}
+
+.footer-ust tr img {
+    width: 60%;
+}
+
+#footer-ust-yazi {
+    font-size: 20%;
+}
+
+.footer-ust-alt td {
+    font-size: 400%; margin-top: -350%; line-height: 10px;
+}
+
+.footer-ust tr td span:hover {
+    background-color: rgb(255, 179, 38);
+}
+
+.card img:hover {
+    opacity: 0.5;
+}
